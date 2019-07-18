@@ -9,10 +9,60 @@
 
         <body>
 <style> 
+.dropbtn {
+        background-color: black;
+                color: white;
+                        padding: #px;
+                                font-size: #px;
+                                        border: none;
+}
+.dropdown {
+        postion: realtive;
+                dispalay: inline-block;
+}
+
+.dropdown-content {
+        display: none;
+                position: absolute;
+                        background-color: lightgrey;
+                                min-width: #px;
+                                        z-index: 1;
+}
+.dropdown-content a {
+        color: black;
+                padding: #px #px;
+                        text-decoration: none;
+                                display: block;
+}
+
+.dropdown-content a:hover {background-color: white;}
+.dropdown:hover .dropdown-content {display: block;}
+.dropdown:hover .dropbtn {background-color: grey;}
+
+
+
 div.a {
         text-align: center; 
 }
 </style> 
+
+<div class="dropdown">
+        <button class="dropbtn">Highschool Projects</button>
+        <div class="dropdown-content">
+
+                <a href="https://docs.google.com/document/d/1Z81F-kKWjLAbrVqxO78lsVJu1gvKY5xVUvKhnOweVqM/edit?usp=sharing">Self-driving Car Report</a>
+                <a href="https://drive.google.com/file/d/0B70zyN4vylSjT1lPb0RvbEdaVXc/view?usp=sharing">Self-drivingCar Code</a>
+                <a href="https://docs.google.com/document/d/1duFc0-5RnyVYd8O-Ei7GpnBnwkN-CfN8fyekb5zn3wU/edit?usp=sharing">Marble-Sorter Report</a>
+                <a href="https://docs.google.com/document/d/1yASvXFcPXn7P10eLOq0iHdngcFQBdmLikAboyy8QxtU/edit?usp=sharing">Marble-Sorter Code</a>
+                <a href="https://docs.google.com/document/d/1MOzaPPirMjg9m9q457OX_hLzTwG84xJr4GXKYmp-NLc/edit?usp=sharing">Motor Profiling</a>
+                <a href="https://docs.google.com/document/d/1XbSfyYO875NHHo0gcQ7RolVRePlhpHqGQC4ESrQ3sdE/edit?usp=sharing">Compound Machine</a>
+                <a href="https://docs.google.com/document/d/1XbSfyYO875NHHo0gcQ7RolVRePlhpHqGQC4ESrQ3sdE/edit?usp=sharing">Analog Sensor Display</a>
+                <a href="https://docs.google.com/document/d/1lseZedQ4WPBFKPWxuJn_NpV3-jnP_ICbOD7pWK3f9E0/edit?usp=sharing">Analog Sensor Display Code</a>
+        </div>
+</div>
+
+
+
 
 <div class="a">
 
